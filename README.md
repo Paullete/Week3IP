@@ -11,23 +11,7 @@ Paullete Adhiambo
 + [Installation Requirements](#Installation)
 + [Languages and Frameworks used](#Languages-used)
 + [Reference](#reference)
-+ [Licence](#licence)## Installation
-21
-​
-22
-### Requirements
-23
-​
-24
-* Either a computer,phone,tablet or an Ipad with a modern web browser
-25
-​
-26
-* An access to the Internet
-27
-​
-28
-
++ [Licence](#licence)
 + [Author's Info](#author-Info)
 
 ## Description
