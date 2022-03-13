@@ -61,9 +61,7 @@ You can preview the live working version here
 This software is licensed with the MIT license
 
 ## Authors Info
+paulettenereah3@gmail.com or paullete.adhiambo@moringastudent.com
 
-Slack Profile - [Collins Kiplangat](https://app.slack.com/client/T0101L740P4/D02TWE6NQ1Z/user_profile/U02TFQD7EKZ)
-
-LinkedIn - [Collins Kiplangat](https://www.linkedin.com/in/collins-kiplangat-a1bab715a/)
 
 [Go Back to the top](#delani-studio)
