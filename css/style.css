@@ -195,7 +195,7 @@ input[type=text]:focus, input[type=email]:focus, .form textarea:focus
 }
 .btn {
     border: 2px solid rgb(204, 221, 196); 
-    background: rgb(154, 163, 179);
+    background: rgb(184, 192, 207);
     float: right;
     padding: 10px 25px;
 }
