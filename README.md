@@ -17,14 +17,6 @@ Paullete Adhiambo
 ## Description
 This website replicates a given design about delani studio and attempts to implement javascript features and layout stylings given.
 
-## Installation
-
-### Requirements
-
-* Either a computer,phone,tablet or an Ipad with a modern web browser
-
-* An access to the Internet
-
 ### Installation Process
 
 - fork this repo and download the resulting zip file
