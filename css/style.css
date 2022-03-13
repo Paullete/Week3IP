@@ -56,9 +56,7 @@ p {
     font-weight: 500;
     font-size: 20px;
 }
-.mouse{
-    color: #000 !important;
-}
+#000
 /* about section styling */
 .about {
     text-align: center;
@@ -86,7 +84,7 @@ p {
 .our-services .intro p{
     padding: 3px 0;
 }
-
+#000
 
 /* what we do section styling */
 .what-done {
@@ -178,7 +176,7 @@ figcaption {
 }
 .form .row input::placeholder,
 .form textarea::placeholder {
-    color: #fff;
+    color: #fff;#000
 }
 .form .row input:-ms-input-placeholder,
 .form textarea:-ms-input-placeholder { 
@@ -242,7 +240,7 @@ footer {
     }
     .development, .design, .product-management {
         margin: 0 0 0 80px;
-    }
+    }#000
     .what-done .icons .design img,
     .what-done .icons .product-management img {
         height: 80px;

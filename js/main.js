@@ -13,6 +13,8 @@ $(document).ready(function () {
 
     $("form").submit(function (e) { 
         e.preventDefault();
+        
+
         let name = $("input#name").val();
         let email = $("input#email").val();
         let message = $("textarea#message").val()
