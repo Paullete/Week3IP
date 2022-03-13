@@ -1,5 +1,5 @@
-# delani-studio
-Moringa Week 3 independent project
+# Delani-studio
+Week 3 independent project
 
 ##### Author
 Paullete Adhiambo
