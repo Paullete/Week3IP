@@ -25,6 +25,7 @@ p {
     margin: 0;
     padding: 0;
     width: 100%;
+    
 }
 .header, .services, .contact {
     -webkit-background-size: cover;
@@ -35,7 +36,7 @@ p {
 .header {
     text-align: center;
     background: url("../assets/backgrounds/h_img.jpg") no-repeat center center fixed;
-    height: 75vh;
+    height: 85vh;
 }
 .heading {
     display: flex;
@@ -56,7 +57,7 @@ p {
     font-weight: 500;
     font-size: 20px;
 }
-#000
+
 /* about section styling */
 .about {
     text-align: center;
@@ -176,7 +177,7 @@ figcaption {
 }
 .form .row input::placeholder,
 .form textarea::placeholder {
-    color: #fff;#000
+    color: #fff;
 }
 .form .row input:-ms-input-placeholder,
 .form textarea:-ms-input-placeholder { 
