@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    max-width: 100vw;
+}
+html{
+    scroll-behavior: smooth;
+}
+img:hover {
+    cursor: pointer;
+}
+section {
+    margin-bottom: 1em;
+}
+section h2 {
+    padding-bottom: 1em;
+}
+p {
+    font-size: 20px;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.header, .services, .contact {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.header {
+    text-align: center;
+    background: url("../assets/backgrounds/h_img.jpg") no-repeat center center fixed;
+    height: 75vh;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.logo {
+    margin-top: 150px;
+    padding: 30px;
+}
+.heading .intro {
+    margin-bottom: 90px;
+    padding-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.heading .intro p {
+    font-weight: 500;
+    font-size: 20px;
+}
+/* about section styling */
+.about {
+    text-align: center;
+    margin: 50px 0;
+}
+.about-us {
+    text-align: center;
+}
+.about-us p {
+    padding: 3px 0;
+}
+
+/* services section styling */
+.services {
+    background: url("../assets/backgrounds/s_image.jpg") no-repeat center center;
+    min-height: 30vh;
+}
+.our-services {
+    text-align: center;
+}
+.our-services .intro {
+    color: #fff;
+    padding: 8em 0;
+}
+.our-services .intro p{
+    padding: 3px 0;
+}
+
+
+/* what we do section styling */
+.what-done {
+    text-align: center;
+    padding-top: 4em;
+    display: block;
+}
+.what-done .icons {
+    padding: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.overlay {
+    position: relative;
+}
+.work .overlay {
+    padding: 20px;
+    margin: 0 35px;
+}
+.work .overlay p {
+    text-align: justify;
+}
+.work, .image img {
+    float: left;
+    width: 33.3%;
+    position: relative;
+}
+.what-done .icons:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+figcaption {
+    padding-top: 5px;
+}
+
+/* portfolio section styling */
+.portfolio {
+    text-align: center;
+}
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.portfolio-img .image {
+    flex: 1;
+    margin: 10px;
+}
+.portfolio-img .image img {
+    width: 250px;
+}
+.portfolio-img .image .overlay{
+    background: rgb(255, 255, 255, 0.4);
+    width: 290px;
+    height: 230px;
+    border-right: 4px solid rgb(255, 255, 255, 0.4);
+    border-bottom: 4px solid rgb(255, 255, 255, 0.4);
+}
+.portfolio-img .image .overlay {
+    position: absolute;
+}
+.portfolio-img .image .overlay p {
+    position: relative;
+    float: left;
+    left: 40%;
+    top: 40%;
+    transform: translate(-50% -50%);
+    font-size: 30px;
+    font-weight:700;
+}
+
+/* contact section styling */
+.contact {
+    text-align: center;
+    color: #fff;
+    background: url("../assets/backgrounds/c_image.jpg") no-repeat center center;
+}
+.contact .intro {
+    padding: 20px 0 100px 0;
+}
+.form .row input, .form textarea {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.form .row input::placeholder,
+.form textarea::placeholder {
+    color: #fff;
+}
+.form .row input:-ms-input-placeholder,
+.form textarea:-ms-input-placeholder { 
+    color: #fff;
+  }
+  
+.form .row input::-ms-input-placeholder,
+.form textarea::-ms-input-placeholder { 
+    color: #fff;
+}
+input[type=text]:focus, input[type=email]:focus, .form textarea:focus
+{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.btn {
+    border: 2px solid rgb(91, 236, 24);
+    background: rgb(226, 234, 247);
+    float: right;
+    padding: 10px 25px;
+}
+.btn:hover {
+    background: none;
+    color: #fff;
+    
+}
+
+/* footer section styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.footer-icons .icon {
+    margin: 0 10px;
+}
+
+
+/* RESPONSIVE CSS */
+@media (max-width: 1000px) {
+    p {
+        font-size: 15px;
+    }
+    .about-us p {
+        padding: 1px 0;
+    }
+    .development, .design, .product-management {
+        margin: 0 10px 0 80px;
+    }
+}
+@media (max-width: 780px) {
+    .heading .intro p {
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .development, .design, .product-management {
+        margin: 0 0 0 80px;
+    }
+    .what-done .icons .design img,
+    .what-done .icons .product-management img {
+        height: 80px;
+    }
+    .portfolio-img .image {
+        display: flex;
+        justify-content: center;
+    }
+    .work .overlay {
+        padding: 5px;
+        margin: 5px;
+    }
+    .work .overlay p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 675px) {
+    .what-done .icons .design img,
+    .what-done .icons .product-management img,
+    .what-done .icons .development img  {
+        height: 60px;
+        margin: 0;
+    }
+    .what-done .icons .development {
+        margin-left: 100px;
+    }
+    figcaption {
+        font-size: 13px;
+    }
+    .footer-icons .icon img {
+        height: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .footer-icons .icon img {
+        height: 30px;
+    }
+    .what-done .icons img {
+        height: 50px;
+    }
+    .development, .design, .product-management {
+        margin: 0 0px 0 20px;
+    }
+}
+@media (max-width: 450px) {
+    section {
+        padding: 1em 0.5em 0 0.5em ;
+    }
+    .header {
+        height: 65vh;
+    }
+    .heading {
+        padding: 40px;
+    }
+    .logo {
+        margin-top: 10px;
+        padding: 8px;
+    }
+    
+    .footer-icons {
+        justify-content: space-around;
+    }
+    .footer-icons .icon {
+        width: 10px;
+    }
+    .what-done {
+        text-align: center;
+        padding-top: 1em;
+    }
+    .work .overlay {
+        padding: 5px;
+        margin: 0;
+    }
+    .work .overlay h4 {
+        font-size: 13px;
+    }
+    .work .overlay p {
+        font-size: 10px;
+    }
+    .what-done .icons .product-management {
+        margin-top: 50px;
+    }
+    .what-done .icons .product-management figcaption {
+        width: 50%;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .what-done .icons .development {
+        margin-left: 0;
+    }
+    .btn {
+        padding: 5px 15px;
+    }
+}
