@@ -19,10 +19,10 @@ This website replicates a given design about delani studio and attempts to imple
 
 ### Installation Process
 
-- fork this repo and download the resulting zip file
-- extract zip to our working directory and open using favorite text editor
-- make sure you have access to all the linked cdns and fonts 
-- launch the website using a local live server to view on the web
+- Fork this repo and download the resulting zip file
+- Extract zip to our working directory and open using favorite text editor
+- Make sure you have access to all the linked cdns and fonts 
+- Launch the website using a local live server to view on the web
 
 ## Languages and Frameworks Used
 * HTML - which was used to layout the markup of the entire page.
