@@ -46,7 +46,7 @@ This website replicates a given design about delani studio and attempts to imple
 ## Live Link
 
 You can preview the live working version here
-[Delani-studio](https://ckm54.github.io/delani-studio/)
+https://paullete.github.io/Week3IP/
 
 ## Reference
 * Materialize CSS
