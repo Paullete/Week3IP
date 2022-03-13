@@ -11,7 +11,23 @@ Paullete Adhiambo
 + [Installation Requirements](#Installation)
 + [Languages and Frameworks used](#Languages-used)
 + [Reference](#reference)
-+ [Licence](#licence)
++ [Licence](#licence)## Installation
+21
+​
+22
+### Requirements
+23
+​
+24
+* Either a computer,phone,tablet or an Ipad with a modern web browser
+25
+​
+26
+* An access to the Internet
+27
+​
+28
+
 + [Author's Info](#author-Info)
 
 ## Description
@@ -25,15 +41,15 @@ This website replicates a given design about delani studio and attempts to imple
 - Launch the website using a local live server to view on the web
 
 ## Languages and Frameworks Used
-* HTML - which was used to layout the markup of the entire page.
+* HTML 
 
-* CSS - which was used to style the page to get its appealing look. 
+* CSS
 
-* JAVASCRIPT - which was used to add interactivity such as hover effects, click events and form submission
+* JAVASCRIPT 
 
-* JQUERY - javascript library to add more interractivity.
+* JQUERY 
 
-* MAILCHIMP - used to create a newsletter subscription list
+* MAILCHIMP 
 
 ## Live Link
 
