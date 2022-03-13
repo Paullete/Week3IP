@@ -3,9 +3,6 @@ Moringa Week 3 independent project
 
 ##### Author
 Paullete Adhiambo
-### It creates a delani studio replica landing page using html, css and javascript.
-
-![Alt text](./assets/delani.png?raw=true "Title")
 
 ## Table of Content
 
