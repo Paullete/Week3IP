@@ -1,13 +1,14 @@
 # Delani-studio
 Week 3 independent project
 
-#Author
+# Author
 Paullete Adhiambo
 
 ## Table of Content
 
 + [Delani Studio](#delani-studio)
 + [Description](#Description)
++ BDD
 + [Installation Requirements](#Installation)
 + [Languages and Frameworks used](#Languages-used)
 + [Reference](#reference)
@@ -16,6 +17,14 @@ Paullete Adhiambo
 
 ## Description
 This website replicates a given design about delani studio and attempts to implement javascript features and layout stylings given.
+
+## BDD
+- The user should:
+- Enter Name
+- Enter their email address
+- Type a message feedback
+- Submit
+- A pop will show thanking the user for the feedback
 
 ### Installation Process
 
