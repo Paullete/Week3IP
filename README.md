@@ -8,7 +8,7 @@ Paullete Adhiambo
 
 + [Delani Studio](#delani-studio)
 + [Description](#Description)
-+ BDD
++ [BDD](#BDD)
 + [Installation Requirements](#Installation)
 + [Languages and Frameworks used](#Languages-used)
 + [Reference](#reference)
