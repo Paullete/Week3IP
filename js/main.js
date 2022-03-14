@@ -10,7 +10,7 @@ $(document).ready(function () {
     }).mouseleave(function () { 
         $(this).find(".overlay").slideUp(300)
     });
-
+    
     $("form").submit(function (e) { 
         e.preventDefault();
         
