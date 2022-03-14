@@ -1,7 +1,7 @@
 # Delani-studio
 Week 3 independent project
 
-##### Author
+#Author
 Paullete Adhiambo
 
 ## Table of Content
@@ -42,6 +42,10 @@ https://paullete.github.io/Week3IP/
 
 ## Reference
 * Materialize CSS
+
+* UDEMY
+
+* Stack overflow
 
 * Web Development Fundamentals w3Schools
 
